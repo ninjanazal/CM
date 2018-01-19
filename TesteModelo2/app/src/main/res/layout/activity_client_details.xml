@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="a8794.clientes.ipca.testemodelo.ClientDetailsActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nome"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/textViewDetailName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nome"
+        android:textSize="20sp"
+        android:layout_marginStart="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Numero"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/textViewDetailNum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="clienteNum"
+        android:textSize="20sp"
+        android:layout_marginStart="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/textViewDetailEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="clienteEmail"
+        android:textSize="20sp"
+        android:layout_marginStart="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Telefone"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/textViewDetailMobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="clienteMobile"
+        android:textSize="20sp"
+        android:layout_marginStart="10dp"/>
+
+</LinearLayout>

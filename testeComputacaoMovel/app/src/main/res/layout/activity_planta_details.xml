@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="a8794.plantas.ipca.plantas.PlantaDetailsActivity"
+    android:orientation="vertical">
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Nome da Planta"
+    android:textStyle="bold"
+    android:textSize="18dp"/>
+
+    <TextView
+        android:id="@+id/textViewDetailsNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="details nome"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:textSize="16dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Nome da Planta em Latim"
+        android:textStyle="bold"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:id="@+id/textViewDetailsNomeLatim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="details nome latim"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:textSize="16dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Descriçao"
+        android:textStyle="bold"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:id="@+id/textViewDetailsDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="descriçao"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:textSize="16dp"/>
+
+</LinearLayout>
