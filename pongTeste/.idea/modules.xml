@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/pong.iml" filepath="$PROJECT_DIR$/pong.iml" />
+      <module fileurl="file://D:\Documentos\Github\CM\pongTeste\app\app.iml" filepath="D:\Documentos\Github\CM\pongTeste\app\app.iml" />
+      <module fileurl="file://D:\Documentos\Github\CM\pongTeste\pong.iml" filepath="D:\Documentos\Github\CM\pongTeste\pong.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pongTeste.iml" filepath="$PROJECT_DIR$/pongTeste.iml" />
     </modules>
   </component>
 </project>

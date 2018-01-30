@@ -23,6 +23,9 @@ public class Ball {
 
     private Random random;
 
+    private boolean isAlive;
+
+
     public boolean isAlive() {
         return isAlive;
     }
@@ -31,7 +34,6 @@ public class Ball {
         isAlive = alive;
     }
 
-    private boolean isAlive;
 
     public Bitmap getBitmap() {
         return bitmap;
